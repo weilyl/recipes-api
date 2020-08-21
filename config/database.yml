@@ -25,4 +25,4 @@ test:
 production:
   <<: *default
   database: recipe_production
-  url: <%= ENV['http://wlrecipesapi.herokuapp.com/login'] %>
+  url: <%= ENV['http://wlrecipesapi.herokuapp.com'] %>
